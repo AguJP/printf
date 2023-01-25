@@ -22,7 +22,7 @@ int print_pointer(va_list types, char buffer[], int flags, int width,
 	void *addrs = va_arg(types, void *);
 
 	UNUSED(width);
-	UNUSED(width);
+	UNUSED(size);
 
 	if (addrs == NULL)
 		return (write(1, "(nil)", 5));
