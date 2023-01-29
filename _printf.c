@@ -7,7 +7,7 @@ void print_buffer(char buffer[], int *buff_ind);
  * @format: format
  * Return: Printed characters
  */
- 
+
 int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
